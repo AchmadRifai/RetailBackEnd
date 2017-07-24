@@ -599,12 +599,61 @@ Namespace entity
         End Sub
 
         Property Kode As String
+            Get
+                Return kd
+            End Get
+            Set(value As String)
+                kd = value
+            End Set
+        End Property
         Property Nama As String
+            Get
+                Return nm
+            End Get
+            Set(value As String)
+                nm = value
+            End Set
+        End Property
         Property Alamat As String
+            Get
+                Return almt
+            End Get
+            Set(value As String)
+                almt = value
+            End Set
+        End Property
         Property Telepon As String
+            Get
+                Return tlp
+            End Get
+            Set(value As String)
+                tlp = value
+            End Set
+        End Property
         Property Bonus As String
+            Get
+                Return bns
+            End Get
+            Set(value As String)
+                bns = value
+            End Set
+        End Property
         Property Diskon As UInt16
+            Get
+                Return dsc
+            End Get
+            Set(value As UInt16)
+                dsc = value
+            End Set
+        End Property
         Property Deleted As Boolean
+            Get
+                Return del
+            End Get
+            Set(value As Boolean)
+                del = value
+            End Set
+        End Property
         Property Blocked As Boolean
             Get
                 Return blk
